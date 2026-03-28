@@ -1,0 +1,12 @@
+resemblyzer>=0.1.4
+speechbrain>=1.0.0
+torch>=2.0.0
+torchaudio>=2.0.0
+onnxruntime>=1.17.0
+sounddevice>=0.4.6
+soundfile>=0.12.0
+numpy>=1.24.0
+noisereduce>=3.0.0
+psutil>=5.9.0
+customtkinter>=5.2.0
+huggingface_hub<1.0

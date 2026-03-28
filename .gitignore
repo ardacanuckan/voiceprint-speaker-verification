@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Generated artifacts
+data/
+cache/
+*.tflite
+*.onnx
+
+# Large generated files
+deploy/**/artifacts/
+deploy/**/firmware/model_weights.h
+**/benchmark_results.json
+**/impostor_results.json
+**/scientific_results.json
+
+# Internal tools
+.sisyphus/
+.claude/
+
+# Training data (large WAV files — not committed)
+training_data/**/*.wav
+
+# OS
+.DS_Store
