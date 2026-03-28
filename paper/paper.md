@@ -261,4 +261,3 @@ We demonstrated that speaker verification can be deployed on ESP32-S3 microcontr
 
 ---
 
-*AI Disclosure: This research was conducted with assistance from Claude (Anthropic). All experimental results were verified through reproducible code.*
