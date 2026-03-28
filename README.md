@@ -174,8 +174,7 @@ cd speaker_verification_production
 - **EER of 5.1%** — Resemblyzer is significantly less accurate than CAM++ (0.654%). For high-security use, this is insufficient.
 - **Score gap of 0.13** between target and impostor means some impostor segments score close to the threshold, especially with certain noise types.
 - **ESP32-S3 inference time** not yet measured on hardware — the pure C LSTM with dequantization may take several seconds at 240 MHz.
-- **Single-speaker design** — verifies against one enrolled person only.
-- **No liveness detection** — vulnerable to replay attacks.
+
 
 ## Requirements
 
